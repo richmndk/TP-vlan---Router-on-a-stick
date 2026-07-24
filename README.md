@@ -18,3 +18,13 @@ switchport mode trunk
 end
 write
 
+
+Routeur 
+
+j'allume le routeur 
+enable
+conf t
+interface gigabitethernet 0/0
+no shutdown
+exit
+
